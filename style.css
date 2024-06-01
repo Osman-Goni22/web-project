@@ -55,9 +55,10 @@
  }
 
  .login{
-   background-color: bisque;
+   
    width: 30%;
    margin-left: 40%;
+   /* background-color: cadetblue; */
  }
 
  form input,select{
@@ -111,9 +112,71 @@ button:hover{
 .registration{
    width: 50%;
    margin-left: 30%;
-   background-color: darkgreen;
 }
 
 .box{
    margin-left: 35%;
+}
+
+.main_table{
+   width: 50%;
+   height: 500px;
+   margin-left: 25%;
+   background-color: #00cec9;
+   
+}
+
+.main_table:hover{
+   background-color:  #81ecec;
+   box-shadow: 0px 4px 4px 0px solid black;
+   z-index: 5px;
+}
+
+.table_title{
+   background-color: #00d8d6;
+   font-size: large;
+}
+
+td{
+   text-align: center;
+}
+
+.news-table{
+   width: 1200px;
+   border:3px solid green;
+   border-radius: 20px;
+   margin-left: 5%;
+   background-color: cadetblue;
+}
+
+.news-table:hover{
+   background-color: #60a3bc;
+}
+
+tr td img{
+   width: 30%;
+   height: 20%;
+}
+
+tr td img:hover{
+   width: 300px;
+   height: 200px;
+}
+
+.news-td{
+   width: 300px;
+   height: 200px;
+}
+
+.image-table{
+   width: 70%;
+   margin-left: 15%;
+   border-radius: 10px;
+}
+
+.image_td{
+  
+   background-color: #34495e;
+   width: 300px;
+   height: 200px;
 }
