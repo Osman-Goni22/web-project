@@ -21,20 +21,28 @@
     background-color: darkgreen;
  }
 
- .down_navbar{
-    background-color: cadetblue;
-   
+ nav{
+   width: 100%;
+   height: 60px;
+   background-color: #00d8d6;
+   padding: 20px ;
+ }
 
+  nav a{
+   width: 100px;
+   margin: 20px;
+   padding:20px 45px;
+   text-align: none;
+   text-decoration: none;
  }
- nav a{
-    text-decoration: none;
-    color: rgb(10, 1, 1);
-    width: 20%;
-    padding: 60px;
-    text-align: center;
-    font-size: 20px;
+
+ nav a:hover{
+   background-color:#4bcffa;
    
- }
+  
+}
+
+ 
 
  p img{
     float: left;
@@ -42,6 +50,45 @@
  }
  p:hover{
     text-align: justify;
-    background-color: rgb(123, 139, 61);
-    color: white;
+    
+    color:black;
  }
+
+ .login{
+   background-color: bisque;
+   width: 30%;
+   margin-left: 40%;
+ }
+
+ form label,input,button{
+   margin-left: 20%;
+   font-size: 15px;
+  font: bold;
+  
+ }
+
+ input[type="text"]{
+   text-align: center;
+    border-radius: 10px;
+    background-color: #81ecec;
+ }
+
+ input[type="text"]:hover{
+  
+   background-color: #00cec9;
+}
+
+input[type="password"]{
+   border-radius: 10px;
+   background-color: #81ecec;
+}
+
+input[type="password"]:hover{
+ 
+  background-color: #00cec9;
+}
+
+
+button{
+   background-color: darkgreen;
+}
