@@ -1,0 +1,47 @@
+.top_nav{
+    background-color: darkcyan;
+}
+.top_nav th{
+    padding: 0px 50px;
+}
+
+.website{
+    width: 50%;
+}
+ .input_text{
+    width: 40%;
+ }
+
+ .input_text input{
+    border-radius: 10px;
+   
+ }
+ .input_text input:hover{
+   
+    background-color: darkgreen;
+ }
+
+ .down_navbar{
+    background-color: cadetblue;
+   
+
+ }
+ nav a{
+    text-decoration: none;
+    color: rgb(10, 1, 1);
+    width: 20%;
+    padding: 60px;
+    text-align: center;
+    font-size: 20px;
+   
+ }
+
+ p img{
+    float: left;
+    padding: 30px;
+ }
+ p:hover{
+    text-align: justify;
+    background-color: rgb(123, 139, 61);
+    color: white;
+ }
