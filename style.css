@@ -38,7 +38,7 @@
 
  nav a:hover{
    background-color:#4bcffa;
-   
+   text-decoration: underline;
   
 }
 
@@ -48,10 +48,14 @@
     float: left;
     padding: 30px;
  }
- p:hover{
-    text-align: justify;
-    
-    color:black;
+
+ p img:hover{
+   background-image: url(./pic-08.jpg);
+ }
+ 
+ .writting{
+   text-align: justify;
+   background-image: url(./pic-04.jpg);
  }
 
  .login{
@@ -179,4 +183,39 @@ tr td img:hover{
    background-color: #34495e;
    width: 300px;
    height: 200px;
+}
+
+.info{
+   margin: 30px;
+   float: left;
+   width: 30%;
+   /* background-color: #34495e; */
+}
+
+.contact-button{
+   margin-left: inherit;
+}
+
+.image-input{
+   width: 80%;
+   height:30px;
+   background-color: #7efff5;
+   border-radius: 10px;
+}
+
+.image-input-sms{
+   width: 80%;
+   height: 100px;
+   background-color: #81ecec;
+   border-radius: #7efff5;
+   text-align: center;
+}
+
+.image-input:hover{
+   background-color:#81ecec;
+}
+
+.address{
+   padding-top: 150px;
+   float: right;
 }

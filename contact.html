@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table making</title>
+    <title>Contact information</title>
     <link rel="stylesheet" href="style.css">
     <style>
         body{
-            background-color: cadetblue;
+            background-color: darkgray;
         }
     </style>
 </head>
@@ -30,49 +30,28 @@
            <a  class="down_contact" href="http://127.0.0.1:5500/contact.html">CONTACT</a>
        </nav>
       </div>
-       
-      <h1 style="text-align: center;">This is a simple Table</h1>
-      <table class="main_table" border="4px solid black" cellspacing="0px">
 
-        <tr class="table_title">
-            <th>Title 1</th>
-            <th>Title 2</th>
-            <th>Title 3</th>
-            <th>Title 4</th>
-            <th>Title 5</th>
-        </tr>
+      
 
-        <tr>
-            <td>Cell 1,1</td>
-            <td>Cell 1,2</td>
-            <td>Cell 1,3</td>
-            <td>Cell 1,4</td>
-            <td>Cell 1,5</td>
-        </tr>
-
-        <tr>
-            <td>Cell 2,1</td>
-            <td>Cell 2,2</td>
-            <td rowspan="2" colspan="2" style="background-image:inherit">Cell 2,3</td>
-            
-            <td>Cell 2,5</td>
-        </tr>
-        <tr>
-            <td>Cell 3,1</td>
-            <td>Cell 3,2</td>
-           
-           
-            <td>Cell 3,5</td>
-        </tr>
-
-        <tr>
-            <td>Cell 4,1</td>
-            <td>Cell 4,2</td>
-            <td>Cell 4,3</td>
-            <td>Cell 4,4</td>
-            <td>Cell 4,5</td>
-        </tr>
-
-      </table>
+      <div class="info">
+        <h1>Send us a Message</h1>
+        &nbsp;&nbsp;&nbsp;&nbsp;<label for="name" style="font-size: 20px;">Name</label> <br>
+        <input class="image-input" type="text" name="name" placeholder="name"> <br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<label  for="email" name="email">Email</label> <br>
+        <input class="image-input" type="email" name="email" placeholder="email"> <br><br>
+        <input class="image-input-sms" type="textarea" name="text" placeholder="message"> <br> <br>
+        <button class="contact-button">Submit</button>
+      </div>
+      <address class="address">
+        <h1>
+            Contact Information.
+        </h1>
+        <p style="font-size: 20px;">Md. Ataur Rahman Osman Goni</p>
+        <p>Rupatoli,Barishal</p>
+        <p>osman.cse8.bu@gmail.com</p>
+        <a href="facebook.com">My facebook link</a>
+        <p>phone:01645733368</p>
+     </address>
+        
 </body>
 </html>
